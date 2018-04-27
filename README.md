@@ -20,6 +20,7 @@ To set up OpenSkin and OpenSkinHelper in your project, add the following towards
 <script>
   var openskin = "appName"; // Set app name
   var openskinDefault = "https://shuga.co/openskinDefault.json"; // Set default skin URL
+  var openskinDLProxy = "https://php.eclipseemu.me/dl/dl.php?dl="; // Set proxy URL. Can be blank.
 </script>
 <script src="js/openskin.js"></script>
 <script src="js/openskinHelper.js"></script>
