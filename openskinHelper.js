@@ -1,4 +1,4 @@
-// OpenSkinHelper_F7 v0.2.0 (c) HeyItsShuga. Licensed under MIT.
+// OpenSkinHelper_F7 v0.2.1 (c) HeyItsShuga. Licensed under MIT.
 
 // Make sure you set instances of "app" to your F7 object name!
 
@@ -232,7 +232,7 @@ function OpenSkinHelper() {
   }
 
   this.addPopup = function() {
-    app.dialog.prompt('Enter the URL for the skin you want to add:', function (url) {
+    app.dialog.prompt('Enter the URL for the skin you want to add:', 'Add Skin', function (url) {
         if(!(!url || url == "")) {
             if((url.indexOf("https://") == 0) || (url.indexOf("http://") == 0) || (url.indexOf("//") == 0)) {
                 OpenSkinHelper.add(url);
