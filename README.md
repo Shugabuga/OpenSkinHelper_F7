@@ -37,11 +37,16 @@ Please check out the [main GitHub](https://github.com/Shugabuga/OpenSkinJS/) for
 
 ### Opening the Skin Viewer
 
-`OpenSkinHelper.popup()`: Brings up the OpenSkinHelper GUI for the user.
+`OpenSkinHelper.popup()`: Brings up the OpenSkinHelper GUI for the user. **This is all that needs to be called for most implementations.**
+
 `OpenSkinHelper.apply(url)`: Applies the current skin and allows it to be loaded on app start.
+
 `OpenSkinHelper.addPopup()`: Displays a dialog box to add a new skin.
+
 `OpenSkinHelper.add(url)`: Add a skin to the skin list.
+
 `OpenSkinHelper.remove(url)`: Removes a skin to the skin list.
+
 `OpenSkinHelper.list()`: Gets the current skin list.
 
 
