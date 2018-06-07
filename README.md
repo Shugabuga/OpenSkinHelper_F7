@@ -11,6 +11,8 @@ OpenSkin is a proposed file format based off of the JSON syntax that will ([try 
 
 OpenSkinHelper is a helper script for [OpenSkinJS](https://github.com/Shugabuga/OpenSkinJS/) that will make it easier to implement in your app. It has all the code needed for implementing skins in your app in minutes.
 
+Please note that OpenSkinHelper is currently beta software and might have some bugs. It should be mostly stable, though.
+
 ## Setup
 
 To set up OpenSkin and OpenSkinHelper in your project, add the following towards the end of the page (to reduce page load time):
