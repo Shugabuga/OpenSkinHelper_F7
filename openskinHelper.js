@@ -1,8 +1,15 @@
-// OpenSkinHelper_F7 v0.2.1 (c) HeyItsShuga. Licensed under MIT.
+// OpenSkinHelper_F7 v0.3.0 (c) HeyItsShuga. Licensed under MIT.
 
-// Make sure you set instances of "app" to your F7 object name!
+// Make sure you set instances of ".app" to your F7 object name!
+
+var OpenSkinOldOnloadCache = window.onload;
 
 window.onload = () => {
+  try {
+    OpenSkinOldOnloadCache();
+  } catch(err) {
+    console.error(err);
+  }
   OpenSkinHelper.init();
   if(window.localStorage.getItem("savedSkin")) {
     console.log("%c[OpenSkin-Helper] %c Applying last used skin...", "color:#358311", "color: gray");
